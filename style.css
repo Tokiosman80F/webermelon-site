@@ -138,3 +138,71 @@ body {
 .hero__img {
   width: 100%;
 }
+
+/* Design grid */
+.design-process {
+}
+.design-process__container {
+}
+.design-process__heading {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 140%;
+}
+.process__layout {
+  width: 1240px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.card {
+  height: 174px;
+  border-radius: 16px;
+  border: 1px solid;
+}
+.card-img {
+  width: 100%;
+}
+.w-624 {
+  width: 624px;
+}
+.w-592 {
+  width: 592px;
+}
+.w-284 {
+  width: 284px;
+}
+
+/* process card */
+.proccess__card {
+  height: inherit;
+  padding: 16px 24px;
+
+  display: grid;
+  justify-content: space-between;
+  justify-items: end;
+  gap: 20px;
+}
+.proccess__card-content {
+  display: flex;
+  align-items: flex-start;
+}
+.proccess__card-heading {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: black;
+}
+
+.proccess__card-img {
+  width: 100%;
+  max-width: 40px;
+  height: 40px;
+}
+.proccess__card-content2 {
+}
+.proccess__card-link {
+  font-size: 20px;
+  line-height: 140%;
+  color: #24806f;
+}
