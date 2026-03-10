@@ -249,7 +249,9 @@ body {
   line-height: 140%;
   color: #24806f;
 }
-
+/* ============================= */
+/* Fav project */
+/* ============================= */
 /* Fav project */
 .fav-project {
   margin-top: 140px;
@@ -310,4 +312,75 @@ body {
   line-height: 140%;
 }
 .podcast__icon {
+}
+/* ============================= */
+/* Customer Experience */
+/* ============================= */
+.cus-exp {
+}
+.cus-exp__content {
+}
+.cus-exp__content--1 {
+}
+.content--1__header {
+}
+.content--1__title {
+  font-size: 64px;
+  font-weight: 500;
+}
+.content--1__icon {
+}
+.content--1__desc {
+}
+.content--1__intreg {
+}
+.content--1__intreg-img {
+}
+.content--1__intreg-content {
+}
+.content--1__intreg-title {
+}
+.content--1__intreg-text {
+}
+.cus-exp__content--2 {
+}
+.sub-content {
+}
+.sub-card--1 {
+}
+.sub-card--1-profile {
+}
+.sub-card--1-profile img {
+}
+.sub-card--1-profile span {
+}
+.sub-card--1-mesg {
+}
+.sub-card--1-bot {
+}
+.sub-card--1-bot-response {
+}
+.sub-card--1-title {
+}
+.sub-card--1-text {
+}
+.sub-card--2 {
+}
+.sub-card--2-title {
+}
+.sub-card--2-text {
+}
+.sub-card--2 img {
+}
+.sub-card--3 {
+}
+.sub-card--3-title {
+}
+.sub-card--3-text {
+}
+.sub-card--4 {
+}
+.sub-card--4-title {
+}
+.sub-card--4-text {
 }
