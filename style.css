@@ -1,9 +1,17 @@
+/* ============================= */
+/* Fonts */
+/* ============================= */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
 :root {
-  --popping-text: "Poppins", sans-serif;
+  --font-primary: "Poppins", sans-serif;
 }
-* {
+/* ============================= */
+/* Reset */
+/* ============================= */
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
@@ -11,6 +19,9 @@
 html {
   box-sizing: border-box;
 }
+/* ============================= */
+/* Base */
+/* ============================= */
 li {
   list-style: none;
 }
@@ -25,21 +36,36 @@ button {
   font-family: inherit;
 }
 body {
-  font-family: var(--popping-text);
+  font-family: var(--font-primary);
   font-weight: 400;
-  line-height: 1;
+  line-height: 140%;
   font-size: 16px;
 }
 
-/* Generall */
+/* ============================= */
+/* Utilities */
+/* ============================= */
+
 .container {
-  /* border: 1px solid black; */
   width: 100%;
   max-width: 1240px;
   margin: 0 auto;
 }
 
-/* header */
+.w-95 {
+  width: 95%;
+}
+.color-white {
+  color: white;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+/* ============================= */
+/* HEADER */
+/* ============================= */
 .header {
   margin-top: 40px;
 }
@@ -58,7 +84,6 @@ body {
   gap: 16px;
   align-items: center;
   background: #ededed;
-  /* border: 1px solid; */
   padding: 8px;
   border-radius: 999px;
 }
@@ -93,7 +118,10 @@ body {
   line-height: 140%;
 }
 
-/* hero */
+/* ============================= */
+/* Hero */
+/* ============================= */
+
 .hero {
 }
 .hero__content {
@@ -139,24 +167,32 @@ body {
   width: 100%;
 }
 
-/* Design grid */
+/* ============================= */
+/* Design Process */
+/* ============================= */
 .design-process {
+  margin-top: 140px;
+  background: #000;
 }
 .design-process__container {
+  padding: 80px 0;
 }
 .design-process__heading {
   font-weight: 400;
   font-size: 48px;
   line-height: 140%;
+  color: white;
+  margin-bottom: 40px;
 }
 .process__layout {
-  width: 1240px;
+  width: 100%;
+  max-width: 1240px;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
 }
 .card {
-  height: 174px;
+  min-height: 174px;
   border-radius: 16px;
   border: 1px solid;
 }
@@ -164,24 +200,32 @@ body {
   width: 100%;
 }
 .w-624 {
-  width: 624px;
+  max-width: 624px;
 }
 .w-592 {
-  width: 592px;
+  max-width: 592px;
 }
 .w-284 {
-  width: 284px;
+  max-width: 284px;
 }
 
 /* process card */
-.proccess__card {
+.proccess__card,
+.proccess__card-sm {
   height: inherit;
-  padding: 16px 24px;
-
   display: grid;
   justify-content: space-between;
   justify-items: end;
+  border-radius: 16px;
+}
+.proccess__card {
+  padding: 16px 24px;
   gap: 20px;
+  background-color: white;
+}
+.proccess__card-sm {
+  padding: 18px 13px;
+  border: 1px solid white;
 }
 .proccess__card-content {
   display: flex;
@@ -191,7 +235,6 @@ body {
   font-weight: 400;
   font-size: 24px;
   line-height: 140%;
-  color: black;
 }
 
 .proccess__card-img {
@@ -205,4 +248,66 @@ body {
   font-size: 20px;
   line-height: 140%;
   color: #24806f;
+}
+
+/* Fav project */
+.fav-project {
+  margin-top: 140px;
+}
+
+.fav__heading {
+  justify-content: center;
+  display: inline-block;
+  background-color: #24806f;
+  font-size: 48px;
+  line-height: 140%;
+  color: white;
+  padding: 20px 38px;
+  border-radius: 28px 28px 28px 0px;
+}
+.fav__podcast {
+  margin-top: 48px;
+}
+.podcast {
+  border-bottom: 2px solid #a4a4a4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 117px;
+}
+.podcast:not(:first-child) {
+  margin-top: 32px;
+}
+.podcast__text {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.podcast__serial {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 53px;
+  color: #24806f;
+  border: 1px solid #24806f;
+  width: 81px;
+  height: 53px;
+  border-radius: 9999px;
+  text-align: center;
+}
+.podcast__topic {
+  font-size: 64px;
+  line-height: 140%;
+  color: #a4a4a4;
+}
+.podcast__numbers {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.podcast__number {
+  color: #a4a4a4;
+  font-size: 20px;
+  line-height: 140%;
+}
+.podcast__icon {
 }
