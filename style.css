@@ -662,3 +662,102 @@ body {
   font-weight: 500;
   line-height: 140%;
 }
+
+/* ============================= */
+/* Footer */
+/* ============================= */
+.footer {
+  background: #000;
+  margin-top: 80px;
+}
+.footer__container {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+.footer__top {
+  display: grid;
+  grid-template-columns: 40% 1fr 1fr;
+}
+.footer__top-1 {
+}
+.footer__top-1 img {
+}
+.footer__top-1 p {
+  margin-top: 24px;
+  font-size: 18px;
+  line-height: 26px;
+  color: white;
+  width: 80%;
+}
+.footer__top-1 button {
+  margin-top: 48px;
+}
+.footer__top-2 {
+  display: grid;
+  gap: 20px;
+  justify-self: center;
+}
+.footer__top-title {
+  color: white;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+}
+.footer__item {
+  display: grid;
+  gap: 12px;
+}
+.footer__link {
+  font-size: 16px;
+  color: white;
+  line-height: 140%;
+}
+.footer__top-3 {
+  display: grid;
+  gap: 60px;
+  justify-self: end;
+}
+.marketing-img {
+  margin-top: 20px;
+}
+
+/* footer middle */
+.footer__middle {
+  color: #fff;
+  padding-top: 60px;
+}
+.footer__middle-cards {
+  border-radius: 24px;
+  padding: 60px 38px;
+  display: flex;
+  gap: 86px;
+  background-color: #24806f;
+}
+.footer__middle-card {
+  display: grid;
+  gap: 20px;
+}
+.footer__middle-card h1 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+}
+.footer__middle-card p {
+  font-size: 16px;
+  line-height: 140%;
+}
+/* footer bottom */
+.footer__bottom {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__bottom-social {
+  display: flex;
+  gap: 20px;
+}
+.footer__bottom p {
+  font-size: 20px;
+  line-height: 140%;
+  color: white;
+}
