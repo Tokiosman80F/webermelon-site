@@ -594,6 +594,20 @@ body {
   margin-top: 140px;
 }
 .contact-us__content {
+  clip-path: polygon(
+    0% 0%,
+    0% 0%,
+    0% 0%,
+    90% 0%,
+    90% 13%,
+    100% 13%,
+    100% 90%,
+    95% 90%,
+    95% 100%,
+    11% 100%,
+    11% 91%,
+    0% 91%
+  );
   background: url("assets/img/contact-us__bg.svg"), #24806f;
   background-repeat: no-repeat;
   background-position: center;
